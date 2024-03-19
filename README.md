@@ -1,7 +1,7 @@
-# :iphone: 로그인, 회원가입, 자기소개 페이지 앱  
+# :iphone: 로그인 및 회원가입 화면전환 구현 앱
    
 
-## 필요한 지식
+## :tada: 필요한 지식
 - Activity
 - XML Layout(ConstraintLayout, EditText, TextView, Button등)
 - Widget
@@ -13,7 +13,11 @@
 - finish
 
 
-### 로그인 페이지 만들기 (SignInActivity)
+## :hammer: 로그인 페이지 만들기 (SignInActivity)
+
+<p align="center">
+   <img src="https://github.com/xeejin/Camp_SignUp/assets/141006937/43be461b-bff3-4e2d-8ce1-1b7e7aec3a5a" height=700px>
+</p>
 
 - [x]  MainActivity의 이름을 SignInActivity로 변경
 - [x]  로고 이미지 삽입
@@ -26,7 +30,7 @@
 - [ ]  회원가입 버튼을 누르면 SignUpActivity가 실행되도록 구현
 
  
-### 회원가입 페이지 만들기 (SignUpActivity)
+## :hammer: 회원가입 페이지 만들기 (SignUpActivity)
 
 - [ ]  타이틀 이미지는 원하는 이미지로 변경
 - [ ] 이름, 아이디, 비밀번호 모두 입력 되었을 때만 회원가입 버튼이 눌리도록 구현합
@@ -35,7 +39,7 @@
 - [ ]  회원가입 버튼이 눌리면 SignInActivity로 이동하도록 구현 (finish 활용)
 
 
-### 자기소개 페이지 만들기 (HomeActivity)
+## :hammer: 자기소개 페이지 만들기 (HomeActivity)
 
 - [ ]  SignInActivity에서 받은 extra data(아이디)를 화면에 표시
 - [ ]  ImageView, TextView 외에 각종 Widget을 활용해 자유롭게 화면을 디자인
@@ -43,14 +47,14 @@
 - [ ]  종료 버튼이 눌리면 SignInActivity로 이동하도록 구현 (finish 활용)
 
 
-### 화면 이동 + a
+## :hammer: 화면 이동 + a
 - [ ]  회원가입 페이지에서 입력한 아이디/비밀번호가 로그인 화면으로 입력할 때 자동으로 이동되도록 구현
 - [ ]  registerForActivityResult 에 대한 탐구
 
 
-### 자기소개 랜덤사진
+## :hammer: 자기소개 랜덤사진
 - [ ]  5장의 사진 파일을 등록 후, 자기 소개 페이지가 시작될 때 5장 중 랜덤으로 1장의 사진이 표시되도록 구현
 
 
-### 개인적인 구현
+## :hammer: 개인적인 구현
 - [ ]  로그인 화면에서 CheckBox를 추가하고 비밀번호 가림 체크/해제 기능
