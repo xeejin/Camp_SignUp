@@ -44,7 +44,7 @@
 - [x]  SignInActivity에서 받은 extra data(아이디)를 화면에 표시
 - [ ]  ImageView, TextView 외에 각종 Widget을 활용해 자유롭게 화면을 디자인
     - [ ]  이름, 나이, MBTI 등 자기소개등이 들어가는 위젯을 자유롭게 디자인
-- [x]  종료 버튼이 눌리면 SignInActivity로 이동하도록 구현 (finish 활용)
+- [ ]  종료 버튼이 눌리면 SignInActivity로 이동하도록 구현 (finish 활용)
 
 
 ## :hammer: 화면 이동 + a
