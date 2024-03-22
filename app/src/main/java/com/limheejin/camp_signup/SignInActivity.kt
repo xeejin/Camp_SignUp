@@ -5,8 +5,8 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Button
 import android.widget.EditText
-import android.widget.TextView
 import android.widget.Toast
+
 
 class SignInActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -36,9 +36,26 @@ class SignInActivity : AppCompatActivity() {
         }
 
 
+
+
+//        // 회원가입의 ID를 넘겨주기 위한 ActivityResultLauncher
+//        lateinit var resultLauncher: ActivityResultLauncher<Intent>
+//        fun setResultSignup(){
+//            resultLauncher = registerForActivityResult(ActivityResultContracts.StartActivityForResult()){
+//                result -> if(result.resultCode == Activity.RESULT_OK){
+//                    val id = result.data?.getStringExtra("id") ?: ""
+//                    val pw = result.data?.getStringExtra("pw") ?: ""
+////                    binding.loginId.setText(id)
+////                    binding.loginPw.setText(pw)
+//            }
+//            }
+//        }
+
         // 회원가입 버튼
         signupButton.setOnClickListener {
+
             val intent = Intent(this, SignupActivity::class.java)
+//            resultLauncher.launch(intent)
             startActivity(intent)
         }
 

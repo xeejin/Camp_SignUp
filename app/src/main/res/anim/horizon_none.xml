@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<set xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <translate
+        android:duration="300"
+        android:fromXDelta="0%"
+        android:fromYDelta="0%"
+        android:toXDelta="0%"
+        android:toYDelta="0%" />
+
+<!--    overridePendingTransition의 인자를 0으로 주면 아무런 애니메이션을 안 하는 것 같지만,-->
+<!--    실제로는 검은화면이 출력되므로 0값을 출력해줄 none.xml 필요-->
+</set>

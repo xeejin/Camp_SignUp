@@ -32,27 +32,23 @@
  
 ## :hammer: 회원가입 페이지 만들기 (SignUpActivity)
 
-- [ ]  타이틀 이미지는 원하는 이미지로 변경
-- [ ] 이름, 아이디, 비밀번호 모두 입력 되었을 때만 회원가입 버튼이 눌리도록 구현합
+- [x] 이름, 아이디, 비밀번호 모두 입력 되었을 때만 회원가입 버튼이 눌리도록 구현합
   (셋 중 하나라도 비어있으면 “입력되지 않은 정보가 있습니다” 라는 토스트 메세지를 출력하도록 구현)
-- [ ]  비밀번호 EditText는 입력 내용이 가려져야 함 (●●● 처리)
-- [ ]  회원가입 버튼이 눌리면 SignInActivity로 이동하도록 구현 (finish 활용)
+- [x]  비밀번호 EditText는 입력 내용이 가려져야 함 (●●● 처리)
+- [x]  회원가입 버튼이 눌리면 SignInActivity로 이동하도록 구현 (finish 활용)
 
 
 ## :hammer: 자기소개 페이지 만들기 (HomeActivity)
 
 - [x]  SignInActivity에서 받은 extra data(아이디)를 화면에 표시
-- [ ]  ImageView, TextView 외에 각종 Widget을 활용해 자유롭게 화면을 디자인
-    - [ ]  이름, 나이, MBTI 등 자기소개등이 들어가는 위젯을 자유롭게 디자인
-- [ ]  종료 버튼이 눌리면 SignInActivity로 이동하도록 구현 (finish 활용)
+- [x]  ImageView, TextView 외에 각종 Widget을 활용해 자유롭게 화면을 디자인
+    - [x]  이름, 나이, MBTI 등 자기소개등이 들어가는 위젯을 자유롭게 디자인
+- [x]  종료 버튼이 눌리면 SignInActivity로 이동하도록 구현 (finish 활용)
 
 
-## :hammer: 화면 이동 + a
+## :hammer: 화면 이동과 랜덤 사진 구현
 - [ ]  회원가입 페이지에서 입력한 아이디/비밀번호가 로그인 화면으로 입력할 때 자동으로 이동되도록 구현
-- [ ]  registerForActivityResult 에 대한 탐구
-
-
-## :hammer: 자기소개 랜덤사진
+- [x]  registerForActivityResult 에 대한 탐구
 - [ ]  5장의 사진 파일을 등록 후, 자기 소개 페이지가 시작될 때 5장 중 랜덤으로 1장의 사진이 표시되도록 구현
 
 

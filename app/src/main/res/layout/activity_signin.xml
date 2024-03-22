@@ -19,64 +19,84 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="286dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/rectangle27"
+        android:backgroundTint="@color/white"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="286dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/rectangle27"
+        android:backgroundTint="@color/white"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView3" />
 
     <EditText
         android:id="@+id/login_id"
         android:layout_width="180dp"
         android:layout_height="48dp"
         android:layout_marginStart="16dp"
+        android:background="@drawable/rectangle27"
         android:backgroundTint="@color/white"
-        android:hint="아이디 입력"
+        android:hint=" ID"
         android:inputType="text"
-        android:textColor="#FFFFFF"
-        android:textColorHint="#8DE4E2E2"
+        android:textColorHint="#8DA59A9A"
+        android:typeface="monospace"
         app:layout_constraintBottom_toBottomOf="@+id/imageView2"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintEnd_toEndOf="@+id/textView3"
         app:layout_constraintStart_toEndOf="@+id/imageView2"
-        app:layout_constraintTop_toTopOf="@+id/imageView2"
-        app:layout_constraintVertical_bias="1.0" />
+        app:layout_constraintTop_toTopOf="@+id/imageView2" />
 
     <EditText
         android:id="@+id/login_pw"
         android:layout_width="180dp"
         android:layout_height="48dp"
         android:layout_marginStart="16dp"
+        android:background="@drawable/rectangle27"
         android:backgroundTint="@color/white"
-        android:hint="비밀번호 입력"
+        android:hint=" Password"
         android:inputType="textPassword"
-        android:textColorHint="#8DE4E2E2"
+        android:textColorHint="#8DA59A9A"
+        android:typeface="monospace"
         app:layout_constraintBottom_toBottomOf="@+id/imageView3"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintEnd_toEndOf="@+id/textView4"
         app:layout_constraintStart_toEndOf="@+id/imageView3"
         app:layout_constraintTop_toTopOf="@+id/imageView3" />
 
     <ImageView
         android:id="@+id/imageView2"
-        android:layout_width="40dp"
-        android:layout_height="40dp"
-        android:layout_marginTop="40dp"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="14dp"
         android:alpha="0.9"
         android:src="@drawable/emailicon"
         app:layout_constraintEnd_toStartOf="@+id/login_id"
-        app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintHorizontal_chainStyle="packed"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageView" />
+        app:layout_constraintStart_toStartOf="@+id/textView3"
+        app:layout_constraintTop_toTopOf="@+id/textView3" />
 
     <ImageView
         android:id="@+id/imageView3"
-        android:layout_width="40dp"
-        android:layout_height="40dp"
-        android:layout_marginTop="16dp"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="14dp"
         android:alpha="0.9"
         android:src="@drawable/keyicon"
         app:layout_constraintEnd_toStartOf="@+id/login_pw"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintHorizontal_chainStyle="packed"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageView2" />
+        app:layout_constraintStart_toStartOf="@+id/textView4"
+        app:layout_constraintTop_toTopOf="@+id/textView4" />
 
     <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/btn_login"
