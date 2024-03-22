@@ -1,5 +1,12 @@
 # :iphone: 로그인 및 회원가입 화면전환 구현 앱
-   
+
+<p align="center">
+   <img src="https://github.com/xeejin/Camp_SignUp/assets/141006937/fa4ffc6f-4bb3-4474-8795-cfacdafd44bd" height=700px align="center">
+   <img src="https://github.com/xeejin/Camp_SignUp/assets/141006937/a37ce7ab-990d-44c9-b4ee-423fb7aa2906" height=700px align="center">
+   <figcaption align="center"></figcaption>
+</p>
+
+
 
 ## :tada: 필요한 지식
 - Activity
@@ -15,9 +22,6 @@
 
 ## :hammer: 로그인 페이지 만들기 (SignInActivity)
 
-<p align="center">
-   <img src="https://github.com/xeejin/Camp_SignUp/assets/141006937/43be461b-bff3-4e2d-8ce1-1b7e7aec3a5a" height=700px>
-</p>
 
 - [x]  MainActivity의 이름을 SignInActivity로 변경
 - [x]  로고 이미지 삽입
