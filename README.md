@@ -64,7 +64,7 @@
 <br/>
 
 ## :hammer: 개인적인 구현
-- [ ]  로그인 화면에서 CheckBox를 추가하고 비밀번호 가림 체크/해제 기능
+- [x]  로그인 화면에서 CheckBox를 추가하고 비밀번호 가림 체크/해제 기능
 
 <br/>
 
@@ -73,5 +73,6 @@
 <p align="center">
    <img src="https://github.com/xeejin/Camp_SignUp/assets/141006937/45b66b32-57e8-4357-802f-9c05d6122ca8" height=700px align="center">
    <img src="https://github.com/xeejin/Camp_SignUp/assets/141006937/381b5aa7-587c-4c50-ba02-954274db1321" height=700px align="center">
-   <figcaption align="center"></figcaption>
+   <img src="https://github.com/xeejin/Camp_SignUp/assets/141006937/a1712bfa-7a6a-4fac-90cc-3d2168a89965" height=700px align="center"> 
+<figcaption align="center"></figcaption>
 </p>

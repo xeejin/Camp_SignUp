@@ -3,12 +3,14 @@ package com.limheejin.camp_signup
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.text.InputType
+import android.text.method.PasswordTransformationMethod
 import android.widget.Button
+import android.widget.CheckBox
 import android.widget.EditText
 import android.widget.TextView
 import android.widget.Toast
 import androidx.activity.result.ActivityResultLauncher
-import androidx.activity.result.contract.ActivityResultContract
 import androidx.activity.result.contract.ActivityResultContracts
 
 
@@ -29,6 +31,18 @@ class SignInActivity : AppCompatActivity() {
         val loginId = findViewById<EditText>(R.id.login_id)
         val loginPw = findViewById<EditText>(R.id.login_pw)
 
+
+        // 비밀번호 노출/가림 체크박스 구현
+        val visibleCheckBox = findViewById<CheckBox>(R.id.btn_visible)
+        visibleCheckBox.setOnCheckedChangeListener{ buttonView, isChecked ->
+            if (isChecked) {
+                 // 체크된 경우, 일반 텍스트 입력 형태로 변경
+                loginPw.transformationMethod = null
+            } else {
+                // 체크가 해제 된 경우, 비밀번호 입력 형태로 변경
+                loginPw.transformationMethod = PasswordTransformationMethod.getInstance()
+            }
+        }
 
         // setResultNext 함수 호출
         // setResultNext 함수를 버튼 클릭 이전에 실행하는 이유는, 회원가입 버튼을 클릭하여 회원가입 액티비티로 이동하기 전에

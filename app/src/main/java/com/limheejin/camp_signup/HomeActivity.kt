@@ -3,10 +3,8 @@ package com.limheejin.camp_signup
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import android.widget.Button
 import android.widget.ImageView
 import android.widget.TextView
-import androidx.activity.result.ActivityResultLauncher
 import java.util.Random
 
 class HomeActivity : AppCompatActivity() {
