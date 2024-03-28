@@ -17,7 +17,8 @@
 - Toast
 - 예외 처리
 - EditText Validation
-- finish
+- finish()
+- registerForActivityResult
 
 
 ## :hammer: 로그인 페이지 만들기 (SignInActivity)
@@ -51,7 +52,7 @@
 
 
 ## :hammer: 화면 이동과 랜덤 사진 구현
-- [ ]  회원가입 페이지에서 입력한 아이디/비밀번호가 로그인 화면으로 입력할 때 자동으로 이동되도록 구현
+- [x]  회원가입 페이지에서 입력한 아이디/비밀번호가 로그인 화면으로 입력할 때 자동으로 이동되도록 구현
 - [x]  registerForActivityResult 에 대한 탐구
 - [ ]  5장의 사진 파일을 등록 후, 자기 소개 페이지가 시작될 때 5장 중 랜덤으로 1장의 사진이 표시되도록 구현
 

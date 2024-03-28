@@ -40,10 +40,8 @@ class SignupActivity : AppCompatActivity() {
                 Toast.makeText(this.applicationContext, "입력되지 않은 정보가 있습니다.", Toast.LENGTH_SHORT).show()
             }
             else {
-//                val intent = Intent(this, SignInActivity::class.java)
-//                intent.putExtra("id", id)
-//                intent.putExtra("pw", pw)
-//                setResult(RESULT_OK, intent)
+                intent.putExtra("id", id)
+                setResult(RESULT_OK, intent)
                 finish()
                 Toast.makeText(this.applicationContext, "회원가입이 완료되었습니다. 로그인하세요.", Toast.LENGTH_SHORT).show()
             }
